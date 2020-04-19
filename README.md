@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Unity Action Sender</h1>
 
-A type-safe replacement for SendMessage.
+A type-safe replacement to SendMessage.
 
 SendMessage is a known trap for hard to maintain. An alternative way is using `GetComponents<T>` with the `interface T`. This package consists of a group of extension API to simplify the approach.
 
@@ -36,34 +36,32 @@ public class Unit : MonoBehaviour, IDamageable
 }
 ```
 
-Replace SendMessage with:
+Import the namespace to send actions.
 
 ```
 using LittleBigFun.ActionSender;
+```
 
+Replace SendMessage with:
+
+```
 gameObject.SendAction<IDamageable>(t => t.Damage(1.0f));
 ```
 
 Replace BroadcastMessage with:
 
 ```
-using LittleBigFun.ActionSender;
-
 gameObject.BroadcastAction<IDamageable>(t => t.Damage(1.0f));
 ```
 
 Replace SendMessageUpwards with:
 
 ```
-using LittleBigFun.ActionSender;
-
 gameObject.SendActionUpwards<IDamageable>(t => t.Damage(1.0f));
 ```
 
 To get result value of actions:
 ```
-using LittleBigFun.ActionSender;
-
 var results = gameObject.SendAction<IDamageable, bool>(t => t.IsAlive());
 var results = gameObject.BroadcastAction<IDamageable, bool>(t => t.IsAlive());
 var results = gameObject.SendActionUpwards<IDamageable, bool>(t => t.IsAlive());
@@ -77,7 +75,7 @@ The package is available on the [openupm registry](https://openupm.com). It's re
 openupm add com.littlebigfun.action-sender
 ```
 
-Or you can install via Git URL.
+Or you can install via [Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html).
 
 ## Media
 

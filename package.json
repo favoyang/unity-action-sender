@@ -3,7 +3,7 @@
   "displayName": "Unity Action Sender",
   "version": "1.0.0",
   "unity": "2018.3",
-  "description": "A type-safe replacement for SendMessage.",
+  "description": "A type-safe replacement to SendMessage.",
   "dependencies": {
   },
   "author": {
