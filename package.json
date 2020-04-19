@@ -1,0 +1,15 @@
+{
+  "name": "com.littlebigfun.action-sender",
+  "displayName": "Unity Action Sender",
+  "version": "1.0.0",
+  "unity": "2018.3",
+  "description": "A type-safe replacement for SendMessage.",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Favo Yang",
+    "url": "https://github.com/favoyang"
+  },
+  "repository": "https://github.com/favoyang/unity-action-sender.git",
+  "license": "MIT"
+}
