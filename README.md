@@ -3,6 +3,8 @@
 </p>
 <h1 align="center">Unity Action Sender</h1>
 
+[![openupm](https://img.shields.io/npm/v/com.littlebigfun.action-sender?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.littlebigfun.action-sender/)
+
 A type-safe replacement to SendMessage.
 
 SendMessage is a known trap for hard to maintain. An alternative way is using `GetComponents<T>` with the `interface T`. This package consists of a group of extension API to simplify the approach.
