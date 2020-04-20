@@ -9,7 +9,7 @@ A type-safe replacement to SendMessage.
 
 SendMessage is a known trap for hard to maintain. An alternative way is leveraging interfaces with `GetComponents<T>`. This package consists of a group of extension API to simplify the approach.
 
-Notice that [Unity EventSystems](https://docs.unity3d.com/2019.1/Documentation/ScriptReference/EventSystems.ExecuteEvents.Execute.html) uses the same approach to support custom message. The major difference is that Unity EventSystems is designed for the UI system, therefore it takes extra efforts to support consume, use, or reset an event (like clicks). While this package API is more accessible and similar to the SendMessage calls. See more discussion in #1.
+Notice that [Unity EventSystems](https://docs.unity3d.com/2019.1/Documentation/ScriptReference/EventSystems.ExecuteEvents.Execute.html) uses the same approach to support custom message. The major difference is that Unity EventSystems is designed for the UI system, therefore it takes extra efforts to support consume, use, or reset an event (like clicks). While this package API is more accessible and similar to the SendMessage calls. See more discussion in [#1](https://github.com/favoyang/unity-action-sender/issues/1).
 
 ## How to Use
 
