@@ -84,3 +84,7 @@ Or you can install via [Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.h
 ## Media
 
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](http://www.flaticon.com)
+
+----
+
+License: see LICENSE.md
